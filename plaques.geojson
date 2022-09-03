@@ -19,6 +19,7 @@ var plaques =
       "type": "Feature",
       "properties": {
         "adress": "Avinguda del Marquesat 60",
+        "image": "<img src='../imatges/AM60.jpg' alt='Avinguda del Marquesat 60' width='200px'/>"
       },
       "geometry": {
         "type": "Point",
@@ -64,6 +65,110 @@ var plaques =
         "coordinates": [
           0.1107540,
           38.8383965
+        ]
+      },
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "adress": "Grup Antonio Català 4",
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.1107966,
+          38.8382723
+        ]
+      },
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "adress": "Carrer Elx 17",
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.1111051,
+          38.8388219
+        ]
+      },
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "adress": "Carrer Elx 13",
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.1108040,
+          38.8386592
+        ]
+      },
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "adress": "Grup Antonio Català 5",
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.1111518,
+          38.8386288
+        ]
+      },
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "adress": "Carrer Carlos Sentí 37",
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.1099682,
+          38.8383046
+        ]
+      },
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "adress": "Carrer del Pintor Llorens 7",
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.1120428,
+          38.8393223
+        ]
+      },
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "adress": "Carrer del Pintor Llorens 9",
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.1121392,
+          38.8391925
+        ]
+      },
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "adress": "Carrer de Pedreguer 10",
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.1063781,
+          38.8362044
         ]
       },
     },
