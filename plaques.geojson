@@ -19,7 +19,7 @@ var plaques =
       "type": "Feature",
       "properties": {
         "adress": "Avinguda del Marquesat 60",
-        "image": "<img src='../imatges/AM60.jpg' alt='Avinguda del Marquesat 60' width='200px'/>"
+        "image": "<img src='../INV/imatges/AM60.jpg' alt='Avinguda del Marquesat 60' height='100%' width='100%'/>"
       },
       "geometry": {
         "type": "Point",
