@@ -1,0 +1,71 @@
+var plaques =
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "adress": "Avinguda del Marquesat 77",
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.1119553,
+          38.8387834
+        ]
+      },
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "adress": "Avinguda del Marquesat 60",
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.1120575,
+          38.8386207
+        ]
+      },
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "adress": "Avinguda del Marquesat 75",
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.1118266,
+          38.8387169
+        ]
+      },
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "adress": "Avinguda del Marquesat 52",
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.1111692,
+          38.8381563
+        ]
+      },
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "adress": "Grup Antonio Català 8",
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.1107540,
+          38.8383965
+        ]
+      },
+    },
+  ]
+}

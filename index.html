@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<title>INV</title>
+
+
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css" />
+
+
+<script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"></script>
+
+<link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.0/dist/MarkerCluster.css" />
+<link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.0/dist/MarkerCluster.Default.css" />
+
+
+<script src="https://unpkg.com/leaflet.markercluster@1.4.0/dist/leaflet.markercluster.js"></script>
+
+
+<script src="plaques.geojson"></script>
+<style>
+body {margin: 0; pad: 0; }
+#map {position: absolute; top: 0; bottom: 0; width: 100%;}
+</style>
+
+</head>
+
+<body>
+
+    <div id="map"></div>
+
+<script>
+
+var osmcarto = L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
+			attribution: 'Dades &copy; <a href="http://osm.org/copyright" target="blanck">Col·laboradors de OpenStreetMap</a> (<a href="http://www.openstreetmap.org/copyright" target="blanck">ODbL</a>) | Tesseles <a href="https://github.com/gravitystorm/openstreetmap-carto" target="blanck">OSM Carto</a> | <a href="https://github.com/paunofu/INV" target="blanck">Més info</a> '
+		}),
+		pnoa = L.tileLayer.wms("http://www.ign.es/wms-inspire/pnoa-ma?SERVICE=WMS&", {
+			layers: "OI.OrthoimageCoverage",
+			transparent: true,
+			format: 'image/jpeg',
+			version: '1.3.0',
+			attribution: 'Ortofotografia <a href="http://www.scne.es/productos.html#OrtoPNOA" target="blanck">PNOA</a> \u00a9 <a href="http://www.ign.es" target="blanck">Instituto Geográfico Nacional de España</a> (<a href="https://creativecommons.org/licenses/by/4.0/legalcode.es" target="blanck">CC BY 4.0</a>) | <a href="https://github.com/paunofu/INV" target="blanck">Més info</a> '
+		});
+		icv = L.tileLayer("https://terramapas.icv.gva.es/0202_2021CVAL0025_3857/wmts/1.0.0/01_8bits_01_RGB_05_PNG/default/GMEPSG3857/{z}/{y}/{x}.png", {
+			attribution: 'Ortofotografia \u00a9 <a href="https://icv.gva.es/va/" target="blanck">Institut Cartogràfic Valencià</a> (<a href="https://creativecommons.org/licenses/by/4.0/legalcode.es" target="blanck">CC BY 4.0</a>) | <a href="https://github.com/paunofu/INV" target="blanck">Més info</a> '
+		});
+
+	var map = L.map('map', {
+		center: [38.70, 0.1086],
+		zoom: 11,
+		layers: [icv]
+	});
+
+	var baseLayers = {
+		"Ortofotos (ICV)": icv,
+		"Carrerer (OSM)": osmcarto,
+		"Ortofotos (IGN)": pnoa
+	};
+
+	L.control.layers(baseLayers).addTo(map);
+	
+	var layerGroup = L.geoJson(plaques, {
+		onEachFeature: function (feature, layer)
+			{layer.bindPopup('<h1>'+feature.properties.adress+'</h1><p>Imatge: '+feature.properties.image+'</p>');
+		}
+		}).addTo(map);
+</script>
+
+</body>
+
+</html>
