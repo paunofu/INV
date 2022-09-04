@@ -172,5 +172,447 @@ var plaques =
         ]
       },
     },
+    {
+      "type": "Feature",
+      "properties": {
+        "adress": "Plaça Luís Arranz 5",
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.1123075,
+          38.8392512
+        ]
+      },
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "adress": "Plaça Luís Arranz 4",
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.1123560,
+          38.8393305
+        ]
+      },
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "adress": "Plaça Luís Arranz 3",
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.1122464,
+          38.8394512
+        ]
+      },
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "adress": "Plaça Luís Arranz 2",
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.1121538,
+          38.8395470
+        ]
+      },
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "adress": "Plaça Luís Arranz 1",
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.1120245,
+          38.8395078
+        ]
+      },
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "adress": "Carrer Patricio Ferràndiz 79",
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.1115656,
+          38.8403534
+        ]
+      },
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "adress": "Carrer Patricio Ferràndiz 81",
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.1116976,
+          38.8404240
+        ]
+      },
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "adress": "Passeig del Saladar 118",
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.1107451,
+          38.8390207
+        ]
+      },
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "adress": "Passeig del Saladar 116",
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.1106045,
+          38.8389448
+        ]
+      },
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "adress": "Passeig del Saladar 23",
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.1065519,
+          38.8370118
+        ]
+      },
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "adress": "Passeig del Saladar 25",
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.1067028,
+          38.8370941
+        ]
+      },
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "adress": "Carrer de Lepant 7",
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.1079235,
+          38.8359541
+        ]
+      },
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "adress": "Plaça de l'Oculista Buigues 8",
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.1124195,
+          38.8409362
+        ]
+      },
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "adress": "Plaça de Jaume I 9",
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.1035886,
+          38.8356407
+        ]
+      },
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "adress": "Passeig del Saladar 1",
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.1042794,
+          38.8357736
+        ]
+      },
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "adress": "Carrer de Patricio Ferràndiz 2",
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.1039863,
+          38.8361137
+        ]
+      },
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "adress": "Carrer de Sagunt 10",
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.1047184,
+          38.8362631
+        ]
+      },
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "adress": "Carrer de Cartagena 5",
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.1047962,
+          38.8370602
+        ]
+      },
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "adress": "Carrer de Cartagena 2",
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.1043894,
+          38.8373910
+        ]
+      },
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "adress": "Carrer de Sagunt 7",
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.1042932,
+          38.8370259
+        ]
+      },
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "adress": "Carrer de Sagunt 3",
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.1040794,
+          38.8372647
+        ]
+      },
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "adress": "Carrer de la Setla 1",
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.1034226,
+          38.8370250
+        ]
+      },
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "adress": "Carrer d'Amparo Merle 4",
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.1034178,
+          38.8373010
+        ]
+      },
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "adress": "Carrer d'Amparo Merle 9",
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.1030376,
+          38.8369678
+        ]
+      },
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "adress": "Carrer de l'Olivera 4",
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.1054218,
+          38.8410280
+        ]
+      },
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "adress": "Carrer del Temple de Sant Telm 7",
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.1097012,
+          38.8428035
+        ]
+      },
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "adress": "Carrer de Manuel Sanchis Guarner 5",
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.1075120,
+          38.8444493
+        ]
+      },
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "adress": "Carrer de Manuel Sanchis Guarner 7",
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.1073485,
+          38.8445469
+        ]
+      },
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "adress": "Carrer de Manuel Sanchis Guarner 9",
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.1071896,
+          38.8446417
+        ]
+      },
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "adress": "Carrer del Doctor Fleming 6",
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.1069167,
+          38.8445793
+        ]
+      },
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "adress": "Carrer del Doctro Fleming 2",
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.1068999,
+          38.8442908
+        ]
+      },
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "adress": "Ronda de les Muralles 45",
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.1070374,
+          38.8441347
+        ]
+      },
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "adress": "Ronda de les Muralles 47",
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.1072498,
+          38.8441368
+        ]
+      },
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "adress": "Ronda de les Muralles 51",
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.1075885,
+          38.8441414
+        ]
+      },
+    },
   ]
 }

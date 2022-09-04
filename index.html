@@ -63,7 +63,7 @@ var osmcarto = L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
 	
 	var layerGroup = L.geoJson(plaques, {
 		onEachFeature: function (feature, layer)
-			{layer.bindPopup('<h1>'+feature.properties.adress+'</h1><p>'+feature.properties.image+'</p>');
+			{layer.bindPopup('<h1>'+feature.properties.adress+'</h1><p>Imatge: '+feature.properties.image+'</p>');
 		}
 		}).addTo(map);
 </script>
