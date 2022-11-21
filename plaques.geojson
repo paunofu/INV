@@ -614,5 +614,31 @@ var plaques =
         ]
       },
     },
+    {
+      "type": "Feature",
+      "properties": {
+        "adress": "Carrer Santa Rosa 42",
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.4847170,
+          38.6943635
+        ]
+      },
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "adress": "Carrer Santa Rosa 44",
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.4847399,
+          38.6942404
+        ]
+      },
+    },
   ]
 }
