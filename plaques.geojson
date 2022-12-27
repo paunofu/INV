@@ -267,6 +267,7 @@ var plaques =
       "type": "Feature",
       "properties": {
         "adress": "Passeig del Saladar 118",
+        "image": "<img src='../INV/imatges/PS118.jpg' alt='Passeig del Saladar 118' height='100%' width='100%'/>"
       },
       "geometry": {
         "type": "Point",
@@ -280,6 +281,7 @@ var plaques =
       "type": "Feature",
       "properties": {
         "adress": "Passeig del Saladar 116",
+        "image": "<img src='../INV/imatges/PS116.jpg' alt='Passeig del Saladar 116' height='100%' width='100%'/>"
       },
       "geometry": {
         "type": "Point",
