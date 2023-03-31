@@ -1,6 +1,6 @@
 # Per què?
 
-Una de les restes més evidents (i que encara perduren) del règim franquista són les plaques del "Instituto Nacional de la Vivienda" que encara exhibixen el yugo i les fletxes damunt de molts portals d'Espanya. T'has preguntat alguna vegada quantes en queden a Dénia o on estan?
+Una de les restes més evidents (i que encara perduren) del règim franquista són les plaques del "Instituto Nacional de la Vivienda" que encara exhibixen el yugo i les fletxes damunt de molts portals d'Espanya. T'has preguntat alguna vegada quantes en queden a Dénia i on estan?
 
 # Falta algo?
 
