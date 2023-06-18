@@ -642,5 +642,57 @@ var plaques =
         ]
       },
     },
+    {
+      "type": "Feature",
+      "properties": {
+        "adress": "Plaça Jaume I el Conqueridor 1",
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.4850894,
+          38.6973218
+        ]
+      },
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "adress": "Carrer Pintor Joaquim Sorolla 12",
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.4850355,
+          38.6970757
+        ]
+      },
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "adress": "Carrer Pintor Joaquim Sorolla 8",
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.4848656,
+          38.6968932
+        ]
+      },
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "adress": "Carrer Pintor Joaquim Sorolla 4",
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.4846832,
+          38.6966122
+        ]
+      },
+    }
   ]
 }
