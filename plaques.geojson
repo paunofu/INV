@@ -693,6 +693,32 @@ var plaques =
           38.6966122
         ]
       },
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "adress": "Carrer Lluís Brailler 10",
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.4858778,
+          38.6975021
+        ]
+      },
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "adress": "Carrer Lluís Brailler 22",
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.4862097,
+          38.6980086
+        ]
+      },
     }
   ]
 }
